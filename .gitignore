@@ -1,0 +1,30 @@
+# .gitignore
+
+# Django related
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Secret key
+secret_key.txt
+
+# Create table script
+mydb.py
+
+# Environment variables
+.env
+.env.local
+
+# IDE files
+.vscode/
+.idea/
+*.pycharm
+
+# Compiled Python files
+*.pyc
+*.pyo
+
+# Log files
+*.log
